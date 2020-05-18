@@ -1,0 +1,26 @@
+apm-server:
+    host: "apm:8200"
+    rum:
+      enabled: true  
+      event_rate:
+        limit: 300
+        lru_size: 1000
+      allow_origins : ['http://localhost:8080','http://localhost:3000']
+      library_pattern: "node_modules|bower_components|~"
+      exclude_from_grouping: "^/webpack"
+      source_mapping:
+        enabled: true
+        cache.expiration: 5m
+        index_pattern: "apm-*-sourcemap*"
+    kibana:
+      enabled: true
+      host: "kibana:5601"
+setup.template.enabled: true
+setup.template.name: "apm-%{[observer.version]}"
+setup.template.pattern: "apm-%{[observer.version]}-%{+yyyy}"
+setup.template.overwrite: false
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+  enabled: true
+  index: "apm-%{[observer.version]}-%{+yyyy}"

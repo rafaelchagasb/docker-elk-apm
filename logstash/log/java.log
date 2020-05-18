@@ -1,0 +1,12 @@
+2018-10-16T00:10:01.7764Z INFO [1] [10.0.2.4] [br.com.teste] [metodo] Messagem de log1
+2018-10-16T00:10:01.7764Z INFO [2] [10.0.2.4] [br.com.teste] [metodo] Messagem de log2
+2018-10-17T10:10:01.7764Z INFO [4] [10.0.2.10] [br.com.teste] [metodo] Messagem de log3
+2018-11-26T12:10:01.7764Z INFO [1] [host.com.br] [br.com.teste] [metodo] Messagem de log4
+2018-12-01T05:10:01.7764Z INFO [5] [host.com.br] [br.com.teste] [metodo] Messagem de log5
+2019-01-01T07:10:01.7764Z INFO [7] [site.net.br] [br.com.teste] [metodo] Messagem de log6
+2019-01-16T16:10:01.7764Z INFO [9] [site.net.br] [br.com.teste] [metodo] Messagem de log7
+2019-01-16T16:10:01.7764Z INFO [13] [192.168.1.0] [br.com.teste] [metodo] Messagem de log8
+2019-01-16T16:10:01.7764Z INFO [12] [192.168.1.0] [br.com.teste] [metodo] Messagem de log9
+2019-01-16T16:10:01.7764Z INFO [12] [192.168.1.0] [br.com.teste] [metodo] Messagem de log10
+2019-01-16T16:10:01.7764Z INFO [12] [192.168.1.0] [br.com.teste] [metodo] Messagem de log11
+2019-01-16T16:10:01.7764Z INFO [12] [192.168.1.0] [br.com.teste] [metodo] Messagem de log12
